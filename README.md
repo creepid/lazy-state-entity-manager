@@ -15,7 +15,7 @@ Just add in your **web.xml**:
 
 <listener>
   <description>ServletContext and Request Listener for managing EntityManager with request scope</description>
-  <listener-class>by.creepid.persistence.PersistenceAppRequestListener</listener-class>   
+  <listener-class>by.creepid.persistence.PersistenceRequestListener</listener-class>   
 </listener>
 ```
 
